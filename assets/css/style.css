@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 300vh;
+}
+.wrapper-out {
+  width: 80%;
+  height: 700px;
+  margin: 20px auto;
+  background-color: purple;
+}
+.wrapper {
+  width: 80%;
+  height: 700px;
+  margin: 20px auto;
+  background-color: blue;
+}
+.inner {
+  padding: 10px;
+  background-color: red;
+  font-size: 2em;
+}
+.sizes {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #000;
+}
+.box1 {
+  position: fixed;
+  left: 0px;
+}
+.box2 {
+  position: fixed;
+  right: 0px;
+}
+.box3 {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+}
+.box4 {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+}
